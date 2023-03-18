@@ -1,0 +1,1275 @@
+@charset "utf-8";
+/*---------------- Top header css start here-------------------*/
+*{
+    font-family: 'Catamaran', sans-serif;
+}
+p{
+    font-size: 18px;
+	line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: roboto,sans-serif;
+    font-size: 15px;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.header{ 
+     background-color:#fbba42;
+     height:40px;
+     line-height:40px;
+}
+.social{}
+.social ul{ 
+  list-style:none; 
+  margin:0px; 
+  padding:0px;
+}
+.social ul li{ 
+  display:inline-block; 
+  margin-left:15px;
+}
+.social ul li a{   
+  color:#fff;  
+  font-size:15px;
+}
+.header ul{
+    width: 100%;
+ list-style: none;
+}
+.contact li a {
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+.contact li a:hover{
+    text-decoration: none;
+}
+/*---------------- Dropdown css start -------------------*/
+.dropdown{
+	padding: 0px 15px;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-radius: 0;
+    padding: 10px 15px;
+}
+.dropdown-submenu:hover .dropdown-menu {
+    top: 39px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 240px;
+    padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu li{
+  border-bottom: solid 1px #ddd;
+  padding: 7px 10px;
+}
+.dropdown-menu.multi-level li a {
+    font-size: 15px;
+}
+
+/*---------------- Dropdown css End-------------------*/
+
+/*----------------Top header css end here-------------------*/
+
+/*---------------- Navbar css start here-------------------*/
+
+.main-header {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+}
+.sticky {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+nav {
+  background: #fff;
+  font-family:'Catamaran', sans-serif;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 2.5rem;
+    padding-left: 0;
+}
+.navbar-nav li a {
+    color: #1b0238;
+    font-size: 16px;
+}
+.navbar-nav li a:hover{
+    text-decoration: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navbar-nav .nav-item {
+    padding: 0 15px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*---------------- Navbar css end here-------------------*/
+/*---------------- Slider css start here-------------------*/
+.container-fluid.main-slider{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.carousel-item{
+	height: 600px;
+}
+.carousel-item img{
+  height: 600px;
+  object-fit: cover;
+}
+.carousel-caption h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-caption{
+   top: 14%;
+}
+.carousel-inner::before {
+    content: "";
+    width: 295px;
+    height: 410px;
+    display: block;
+    position: absolute;
+    background-image: 
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/Slider/1617195523_child-1_0.png);
+    background-repeat: no-repeat;
+    z-index: 99;
+    bottom: 0;
+}
+.carousel-inner::after {
+    content: "";
+    width: 250px;
+    height: 410px;
+    display: block;
+    position: absolute;
+    right: 0;
+    background-image: 
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/Slider/1617195535_child-2_0.png);
+    background-repeat: no-repeat;
+    z-index: 99;
+    bottom: 0;
+}
+.carousel-caption h1 small {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.carousel-caption ul {
+    list-style: none;
+}
+.carousel-caption .btn {
+    height: 45px;
+    padding: 0 40px;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn.learn-more{
+	background-color: #ec2931;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+}
+.btn.learn-more:hover{
+	background-color: #b9d332;
+	 color: #fff;
+}
+.btn.find-more{
+	background-color: #b9d332;
+	color: #fff;
+}
+.btn.find-more:hover{
+	background-color: #ec2931;
+	color: #fff;
+}
+/*---------------- Slider css end here-------------------*/
+
+/*---------------- About Us css start here-------------------*/
+.who-we-are{
+    position: relative;
+}
+.who-we-are-content{
+	padding-top: 50px;
+    padding-bottom: 100px;
+}
+.who-we-are::before {
+    content: "";
+    width: 100%;
+    height: 180px;
+    background-image:
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/newbanner/1617198298_slide-shape_0.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -69px;
+    background-position: center;
+}
+.who-we-are-content span{
+	font-family: sacramento,cursive;
+	color: #ea512e;
+}
+.who-we-are-content ul li span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;  
+    background: #ec2931;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin:10px 7px 10px 0;
+}
+.who-we-are-content h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1b0238;
+}
+.who-we-are-content p{
+    margin-bottom: 0px;
+}
+.who-we-are-btn .learn-more{
+	padding: 12px 35px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+ul.who-we-are-list {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+ul.who-we-are-list li {
+    width: 50%;
+    font-weight: bold;
+}
+
+/*---------------- About Us css end here-------------------*/
+
+/*---------------- Core Program css start here-------------------*/
+.core-programs h2{
+	color: #1b0238;
+	font-size: 35px;
+}
+.core-programs h5{
+	color: #3f2a58;
+}
+.gallery_section h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #1b0238;
+}
+
+/*---------------- Core Program css end here-------------------*/
+
+/*---------------- Blogs css start here-------------------*/
+.latest-news h2{
+	color: #1b0238;
+	font-size: 35px;
+}
+.latest-news figure{
+	margin-bottom: 0;
+}
+.latest-news .card{
+	background-color: #fdeee9;
+	border:none;
+}
+.latest-news .card figure img{
+    border-radius: 4px 4px 0px 0px;
+}
+.latest-news .card h5 a{
+	color: #1b0238;
+}
+.blog-section figure img {
+    height: 250px;
+    object-fit: cover;
+}
+.blog-section .card figure{
+	margin-bottom: 0px;
+}
+.blog-section .card h4 a {
+    font-size: 1.2rem;
+    color: #333;
+}
+.blog-section .card h4 a:hover{
+	text-decoration: none;
+}
+.post-auth{
+	list-style: none;
+	display: inline-flex;
+	padding-left: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.team-slider .card{
+  border:none;
+}
+.team-slider .card figcaption h4 a{
+	color: #ec2931;
+	font-size: 1.2rem;
+}
+.blog-section.inner-page .title {
+    display: none;
+}
+.post-image img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.content-box .post-auth{
+	margin-bottom: 0px;
+}
+ul.post-auth li span {
+    color: #ec2931;
+}
+.comment-form{
+  width: 100%;
+}
+.success{
+	display: none;
+}
+.form-control {
+    border-radius: 0 !important;
+    padding: 1.4rem .75rem !important;
+}
+.post-auth li a {
+    color: #333;
+}
+.int-banner-title h1 {
+    margin-bottom: 0;
+}
+/*---------------- Blogs css end here-------------------*/
+/*---------------- Team css start here-------------------*/
+.team figure img {
+    height: 220px;
+    object-fit: cover;
+}
+.team-section h4 {
+    font-size: 18px;
+}
+.team .card h4 a {
+  color: #a6c437;
+}
+.team .card {
+    border: none;
+}
+.team-section.inner-page .section-title {
+    display: none;
+}
+.team-section h4 a {
+    color: #333;
+}
+.team-detail figure{
+  margin-bottom: 0px;
+}
+.team-detail ul{
+     list-style: none;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 25px;
+}
+.our-consultant h2{
+	color: #1b0238;
+	font-size: 35px;
+	font-weight: bold;
+}
+/*---------------- Team css end here-------------------*/
+/*---------------- Gallery css start here-------------------*/
+.gallery_section{
+
+}
+.gallery-section figure{
+  margin-bottom: 0px;
+}
+.gallery-title{
+	font-size: 1.2rem;
+}
+.card.gallery-item {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.bg-image-section p {
+    color: #fff;
+}
+/*---------------- Gallery css end here-------------------*/
+/*---------------- Portfolio css start here-------------------*/
+.page-section{
+  width: 100%;
+}
+.popular-services{
+	background-color: #fdf6ed;
+}
+.popular-services h2{
+	font-size: 35px;
+	color: #1b0238;
+}
+.portfolio-detail figure img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.portfolio-detail figure {
+    margin: 0;
+}
+.stunning-text p{
+  margin-bottom: 0px;
+}
+.card-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card-item:hover .card_info{
+    top: 0;
+    border-radius: 5px !important;
+}
+.card_img img{
+    border-radius: 4px 4px 0px 0px;
+    width: 100%;
+}
+.card_info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -100%;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    transition: .3s;    
+}
+.card_info:before{
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: .7;
+    content: "";
+    border-radius: 5px;
+}
+.card_sec {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.card_title h3 {
+    font-size: 17px;
+    margin-top: 0px;
+    color: #FFFFFF;
+    background: #ec2931;
+    padding: 10px 0;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 80px;
+}
+.card_title h3 a{
+  color: #fff;
+}
+.card_title h3 a:hover{
+  text-decoration: none;
+}
+.card_title li.read_more { 
+    color: #FFAB00;
+    list-style: none;
+}
+.card_title li.read_more a{
+  color: #fff;
+}
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    } 
+    100% {
+        opacity: 0.9;
+        transform: translateY(0);
+    } 
+}
+button.owl-prev {
+    width: 40px;
+    height: 40px;
+    background-color:#ec2931 !important;
+    line-height: 40px;
+    z-index: 999999;
+    color: #fff !important;
+    font-size: 20px !important;
+    border-radius: 50%;
+    position: absolute;
+    left: -50px;
+    top: 35%;
+}
+button.owl-next {
+    width: 40px;
+    height: 40px;
+    background-color:#ec2931 !important;
+    line-height: 40px;
+    z-index: 999999;
+    color: #fff !important;
+    font-size: 20px !important;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    top: 35%;
+}
+.popular-services{
+	position: relative;
+}
+.popular-services::before {
+    content: "";
+    width: 380px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    background-image:
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/newbanner/1617360620_class-shape-1_0.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+.popular-services::after {
+    content: "";
+    width: 275px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    background-image:
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/newbanner/1617360620_class-shape-2_1.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    right: 0px;
+}
+.portfolio-section .card-item{
+	z-index: 9;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
+    border: none;
+    border-radius: 8px;
+}
+.portfolio-section h4 a {
+    color:#1b0238;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*---------------- Portfolio css end here-------------------*/
+/*---------------- Testimonial css start here-------------------*/
+.testimonial-bg{
+    background: #f0f8ff;
+}
+.testimonial-name-div{
+	background-color: #fff;
+	border-radius: 30px;
+}
+.testimonial-bg h2 {
+    font-size: 35px;
+    color: #1b0238;
+}
+.list-div-body{
+	justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+}
+.list-div-body h4{
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.list-div-body img{
+	width: 70px !important;
+    height: 70px;
+    border-radius: 50%;
+}
+.list-div{
+	position: relative;
+}
+.list-div::after{
+	content: "";
+	width: 50px;
+	height: 40px;
+	background-image:
+	url(https://themenick.in/project/rollick-frolic/cms/resources/media/newbanner/1617367967_shape_0.png);
+	background-repeat: no-repeat;
+	bottom: -40px;
+	position: absolute;
+}
+.testimonial-name-div .list-div {
+    background: #45b3df;
+    padding: 30px 40px 30px 40px;
+    border-radius: 30px;
+    margin: 0px 0px 0px 0px;
+}
+.testimonial-name-div .list-div p{
+	color: #fff !important;
+}
+/*---------------- Testimonial css end here-------------------*/
+
+/*---------------- Other css start here-------------------*/
+.heading-section {
+    text-align: center;
+}
+.accordate .nav-tabs{
+  border-bottom:none;
+}
+.faq{
+  width: 100%;
+}
+.panel-title a {
+    color: #333;
+}
+.accordion .card-title {
+    color: #333;
+}
+.accordion .card-header {
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+.accordion .card{
+	border: none;
+}
+.page-content-banner{
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-section{
+  position: relative;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.bg-image-section::before{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #000;
+   opacity: 0.5;
+}
+.bg-image-content{
+  padding: 90px 30px;
+  color: #fff;
+  z-index: 9;
+}
+.accordate .card{
+	width: 100%;
+}
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+ul.nav.nav-tabs.tabss li a{
+    margin-right: 10px;
+    margin-bottom: 2px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+ul.nav.nav-tabs.tabss li a.active {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+/*---------------- Other css end here-------------------*/
+/*---------------- Logo carousel css start here-------------------*/
+#clients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#clients .clients-wrap {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#clients .clients-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#clients .clients-wrap ul li {
+	background-color: #fff;
+  display: block;
+  float: left;
+  position: relative;
+  width: 200px;
+  line-height: 100px;
+  text-align: center; margin:0 5px 0 5px; border:solid 1px #ccc;
+}
+#clients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+}
+#clients .clients-wrap ul li img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1.0;
+}
+/*---------------- Logo carousel css end here-------------------*/
+/*---------------- Footer css start here-------------------*/
+.footer-section{
+    color: #fff;
+    padding: 50px 0px;
+    background-image:
+    url(https://themenick.in/project/rollick-frolic/cms/resources/media/newbanner/1617282972_footer-bg_0.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+.footer-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-logo figure img {
+    height: auto;
+}
+.footer-section ul li a{
+	color: #fff;
+}
+.footer-section ul li a:hover{
+  text-decoration: none;
+}
+.footer-section ul li{
+	margin-right: 10px;
+	line-height: 2em;
+	position: relative;
+}
+.foo-list span {
+    position: absolute;
+    left: -25px;
+    color: #ec2931;
+}
+.footer-title{
+	padding-bottom: 8px;
+}
+.footer-title::after {
+    content: "";
+    display: block;
+    background:#ec2931;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer-content a {
+    color: #ea512e;
+}
+.footer-content a:hover{
+	 color: #ea512e;
+}
+.footer-content p{
+   font-size: 14px;
+}
+ul.contact-list {
+    padding-left: 25px;
+}
+ul.contact-list li a {
+    font-size: 14px;
+}
+.section-bottom-bar{
+	background: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.foo-list strong {
+    display: block;
+}
+.foo-social ul {
+    display: inline-flex;
+}
+.foo-social ul li{
+	width: 35px;
+    height: 35px;
+    display: block;
+    background:#ec2931;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+.footer-gallery ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.footer-gallery ul li {
+    width: 29%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5px;
+}
+/*---------------- Footer css end here-------------------*/
+
+/*---------------- Contact css start here-------------------*/
+.contact-information ul {
+	position: relative;
+}
+.contact-information ul {
+    list-style: none;
+    padding-left: 30px;
+}
+.contact-information ul li span {
+    position: absolute;
+    left: 0;
+}
+.contact-information ul li {
+    margin-bottom: 30px;
+}
+.contact-information ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*---------------- Contact css end here-------------------*/
+
+/*---------------- Portfolio filter css start here-------------------*/
+
+.filtering {
+    margin-bottom: 40px;
+}
+.filtering span {
+    border-bottom: 2px solid transparent;
+    color: #282b2d;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.filtering span:last-child {
+    margin: 0;
+}
+.filtering .active {
+    border-color: #ccde02;
+    color: #ccde02;
+}
+.portfolio-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.portfolio-wrapper .portfolio-image img {
+    transform: scale(1.2);
+    will-change: transform;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+.portfolio-wrapper:hover .portfolio-image img {
+    transform: none;
+}
+.portfolio-overlay:before {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    content: "";
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: scale(0.85);
+}
+.portfolio-overlay .portfolio-content {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    padding: 0 35px;
+}
+.portfolio-content h4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.portfolio-content p {
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.portfolio-content > a {
+    line-height: 42px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #000;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.portfolio-wrapper:hover .portfolio-overlay {
+    background-color: rgba(204, 222, 2, 0.85);
+}
+.portfolio-wrapper:hover .portfolio-overlay:before {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.portfolio-wrapper:hover .portfolio-overlay .portfolio-content {
+    transform: translateY(50%);
+    transition: transform 0.5s ease;
+    opacity: 1;
+}
+@media screen and (max-width: 1199px) {
+    .portfolio-content h4 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .portfolio-content h4 {
+        margin-bottom: 10px;
+    }
+    .portfolio-content p {
+        font-size: 15px;
+    }
+    .portfolio-content > a {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .portfolio-content h4 {
+        font-size: 17px;
+    }
+    .portfolio-content p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .portfolio-content h4 {
+        font-size: 16px;
+    }
+}
+.grid .grid-item {
+    position: relative;
+    overflow: hidden;
+}
+.grid .grid-item .portfolio-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.grid .grid-item .portfolio-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease;
+}
+.grid .grid-item .portfolio-wrapper .portfolio-image img {
+    transform: none;
+    will-change: transform;
+    transition: none;
+    width: 100%;
+}
+.grid .grid-item .portfolio-wrapper:hover .portfolio-image img {
+    transform: none;
+}
+.grid .grid-item .portfolio-overlay:before {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    content: "";
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: scale(0.85);
+}
+.grid .grid-item .portfolio-overlay .portfolio-content {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.grid .grid-item .portfolio-content h4 {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.grid .grid-item .portfolio-content p {
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.grid .grid-item .portfolio-content a {
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #000;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.grid .grid-item .portfolio-wrapper:hover .portfolio-overlay {
+    background-color: rgba(204, 222, 2, 0.85);
+}
+.grid .grid-item .portfolio-wrapper:hover .portfolio-overlay:before {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.grid .grid-item .portfolio-wrapper:hover .portfolio-overlay .portfolio-content {
+    transform: translateY(50%);
+    transition: transform 0.5s ease;
+    opacity: 1;
+}
+@media screen and (max-width: 1199px) {
+    .grid .grid-item .portfolio-content h4 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .grid .grid-item .portfolio-content h4 {
+        margin-bottom: 10px;
+    }
+    .grid .grid-item .portfolio-content p {
+        font-size: 15px;
+    }
+    .grid .grid-item .portfolio-content a {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .grid .grid-item .portfolio-content h4 {
+        font-size: 17px;
+    }
+    .grid .grid-item .portfolio-content p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .grid .grid-item .portfolio-content h4 {
+        font-size: 16px;
+    }
+    .grid .grid-item .portfolio-overlay:before {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+}
+/*---------------- Portfolio filter css end here-------------------*/
+
+/*****----------------------enquiry form--------------------*****/
+
+
+
+.feedback-form {
+    position: fixed;
+    top: 5%;
+    right: 0px;
+    z-index: 9999;
+    min-height: 450px;
+}
+.feedback-form-btn {
+    position: absolute;
+    left:-105px!important;
+    color: #fff;
+    transform: rotate(90deg);
+    top: 50%;
+    right: 0px;
+    width: 180px;
+    border-radius: 0;
+    font-weight:900;
+    background-color: #ff9f1c;
+}
+#dybutton {
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+    font-size: 17px;
+    z-index: 9999;
+    color: #872400;
+    cursor: pointer;  
+    margin-left: 0px;
+}
+.feedback_form_area {
+    border: 1px solid #458783;
+    position: relative;
+    display: none;
+    overflow-X: hidden;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback_form_area_inner {
+    width: 350px; 
+    min-height: 450px;
+    padding: 15px;
+}
+.slide_form {
+    position: relative;
+    width: 100%;
+    padding-top: 5px;
+}
+.slide_form h3 {
+    text-align: center;
+   font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 0;
+    color: #333;
+}
+.custom-inp {
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+    color: #000;
+    border: 1px #000 solid;
+    background: transparent;
+}
+
+.custom-inp {
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+    color: #000;
+    border: 1px #000 solid;
+    background: transparent;
+}
+.custom-inp-txt {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    color: #333;
+    border: 1px #000 solid;
+    background: transparent;
+}
+/*****----------------------enquiry form--------------------*****/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:20px;
+	background-color:#25d366;
+	color:#fff;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

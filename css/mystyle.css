@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+}
+.site-navbar{
+    background-color: rgba(68, 76, 70, 0.25);
+    
+}
+.logo-section{
+    width: 300px;
+}
+.logo-section img{
+    width: 100%;
+}
+.typed-words{
+    color: orange;
+}
+.btn{
+    background-color: orange;
+    border: none;
+}
+.btn:hover{
+    background-color: brown;
+}
+.site-navbar ul li{
+    color: orange;
+}
+span a{
+    color: orange !important;
+}
+span{
+    color: orange !important;
+}
+.bg-primary{
+    background-color: orange !important;
+}
+.bg-primary span{
+    color: rgb(255, 255, 255) !important;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.bg-img{
+    background-image: url('/images/Therapy.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}

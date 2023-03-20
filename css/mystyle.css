@@ -69,4 +69,6 @@ span{
   .margin_bottom{
     margin-bottom: 30px;
   }
-  
+p{
+    color: black;
+}

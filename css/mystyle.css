@@ -54,3 +54,19 @@ span{
     background-repeat: no-repeat;
     background-blend-mode: lighten;
 }
+.img_gallery{
+    border: 24px solid rgba(145, 134, 134, 0.148);
+    border-radius: 55px;
+    width: 360px;
+  }
+  .img_gallery:hover{
+    position: absolute;
+    border: 24px solid rgba(164, 153, 153, 0.6);
+    transition: 2.5s;
+    transform: scale(1.1) rotate(-3deg);
+    z-index: 99;
+  }
+  .margin_bottom{
+    margin-bottom: 30px;
+  }
+  

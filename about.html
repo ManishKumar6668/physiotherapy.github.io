@@ -293,6 +293,24 @@
             </script>
 
   <script src="js/main.js"></script>
-  
+  <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          call: "+91 7596917747", // Call phone number
+          whatsapp: "+91 7596917747", // WhatsApp number
+          call_to_action: "Contact us on Whatsapp or through Call", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "left", // Position may be 'right' or 'left'
+          order: "call,whatsapp", // Order of buttons
+          pre_filled_message: "Thank you for your message. We will contact you soon.", // WhatsApp pre-filled message
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
   </body>
 </html>

@@ -9,26 +9,7 @@
 </head>
 
 <body>
-    <?php
-    if (!empty($_POST["send"])) {
-        $userfName = $_POST["userfName"];
-        $userlName = $_POST["userlName"];
-        $userEmail = $_POST["userEmail"];
-        $userPhone = $_POST["userPhone"];
-        $userMessage = $_POST["userMessage"];
-        $toEmail = "manishyashahmedia@gmail.com";
-
-        $mailHeaders = "Name: " . $userfName . $userlName.
-            "\r\n Email: " . $userEmail .
-            "\r\n Phone: " . $userPhone .
-            "\r\n Message: " . $userMessage . "\r\n";
-
-        if (mail($toEmail, $userfName, $mailHeaders)) {
-            $message = "Your contact information is received successfully.";
-        }
-    }
-
-    ?>
+    
     <!-- Contact Form Section Starts-->
     <div class="site-section bg-light">
         <div class="container">
@@ -79,11 +60,7 @@
                             <div class="col-md-12">
                                 <input type="submit" value="Send Message" name="send"
                                     class="btn btn-pill btn-primary btn-md text-white">
-                                <?php if (!empty($message)) { ?>
-                                    <div class="success">
-                                        <strong><?php echo $message; ?></strong>
-                                    </div>
-                                <?php } ?>
+                              
                             </div>
                         </div>
 

@@ -11,18 +11,19 @@
 <body>
     <?php
     if (!empty($_POST["send"])) {
-        $userName = $_POST["userName"];
+        $userfName = $_POST["userfName"];
+        $userlName = $_POST["userlName"];
         $userEmail = $_POST["userEmail"];
         $userPhone = $_POST["userPhone"];
         $userMessage = $_POST["userMessage"];
         $toEmail = "manishyashahmedia@gmail.com";
 
-        $mailHeaders = "Name: " . $userName .
+        $mailHeaders = "Name: " . $userfName . $userlName.
             "\r\n Email: " . $userEmail .
             "\r\n Phone: " . $userPhone .
             "\r\n Message: " . $userMessage . "\r\n";
 
-        if (mail($toEmail, $userName, $mailHeaders)) {
+        if (mail($toEmail, $userfName, $mailHeaders)) {
             $message = "Your contact information is received successfully.";
         }
     }

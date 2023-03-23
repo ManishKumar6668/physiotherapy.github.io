@@ -132,3 +132,11 @@ p {
 .gallery_btn :hover{
     color: rgb(255, 255, 255);
 }
+em{
+    color: red;
+}
+.success{
+    background: green;
+    color: white;
+    text-align: center;
+}

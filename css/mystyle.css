@@ -135,8 +135,10 @@ p {
 em{
     color: red;
 }
-.success{
+.form-group .success{
     background: green;
     color: white;
     text-align: center;
+    margin-top: 20px;
+    border-inline: none;
 }

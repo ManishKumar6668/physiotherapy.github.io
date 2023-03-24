@@ -11,7 +11,7 @@ $Message=$_POST['userMessage'];
 
 
 //Save visitor name and entered message into one variable:
-$formcontent=" Name: $Name $LName\r\n E-mail: $email \r\n phone: $phone\r\n grade: $grade\r\n Message: $Message\r\n ";
+$formcontent=" Name: $Name $LName\r\n E-mail: $email \r\n phone: $phone \r\n Message: $Message\r\n ";
 $recipient = "manishyashahmedia@gmail.com";
 // $headers .= "BCC: thunga.manjunatha@gmail.com\r\n";
 $subject = "The inquiry form";

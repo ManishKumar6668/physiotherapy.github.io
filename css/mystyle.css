@@ -14,12 +14,12 @@ body {
 }
 
 .site-navbar {
-    background-color: rgba(68, 76, 70, 0.25);
+    background-color: rgba(68, 76, 70, 0.2);
 
 }
 
 .logo-section {
-    width: 300px;
+    width: 100px;
 }
 
 .logo-section img {
@@ -76,8 +76,9 @@ span {
 .img_gallery {
     border: 24px solid rgba(145, 134, 134, 0.148);
     border-radius: 55px;
-    width: 360px;
+    width: 100%;
     height: 500px;
+    cursor: pointer;
 }
 
 .img_gallery:hover {
@@ -141,4 +142,7 @@ em{
     text-align: center;
     margin-top: 20px;
     border-inline: none;
+}
+.margin_top{
+    margin-top: 85px;
 }
